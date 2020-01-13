@@ -3,3 +3,9 @@ $(document).ready(() => {
         $(".menu").toggleClass("menu--visible");
     });
 });
+
+$(document).ready(() => {
+    $(".menu").click(() => {
+        $(".menu").removeClass("menu--visible");
+    });
+});
